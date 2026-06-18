@@ -4,24 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portefolio Hamdos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- navbar--->
-     <header>
-        <nav>
-            <h1>Portefolio Hamdos</h1>
-             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
+     <header class="header">
+
+        <nav class="navbar">
+           <h1 class="logo">
+            Portefolio Hamdos
+            </h1>
+            <ul class="nav-list">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
         </nav>
      </header>
      <!---home--->
      <main>
-        <section id="home">
+       <section id="home" class="section">
             <h2>Bienvenue sur mon portefolio</h2>
             <p>Je suis un développeur passionné par la création de solutions innovantes et efficaces. Mon objectif est de transformer des idées en réalité grâce à mes compétences en développement web et mobile.</p>
             <!-- video-->
@@ -31,7 +36,7 @@
                 </video>
                 </section>
                 <!---about--->
-                <section id="about">
+                <section id="about" class="section">
                  <h2>À propos de moi</h2>
                  <img src="image/fav.jpeg" alt="Photo de Hamdos" width="200">
                  <p>Je suis un développeur specialisé dans le développement web et mobile, avec une passion pour la création de solutions innovantes. J'ai une solide expérience dans la conception et le développement d'applications, ainsi que dans la résolution de problèmes complexes.</p>
@@ -44,7 +49,7 @@
                     </ul>
                 </section>
                <!---work--->
-               <section id="work">
+               <section id="work" class="section">
                 <h2>Mes projets</h2>
                 <table border="1"> 
                     <tr>
@@ -65,7 +70,7 @@
                             </table>
                 </section>
                 <!---Resume--->
-                <section id="resume">
+                <section id="resume" class="section">
                     <h2>Mon CV</h2>
                     <p>Vous pouvez télécharger mon CV en cliquant sur le lien ci-dessous :</p>
                     <a href="CV/Hamadoun_Sidibe_CV.pdf" download>
@@ -73,20 +78,17 @@
                        </a>
                     </section>
                     <!---Contact--->
-                    <section id="contact">
+                    <section id="contact" class="section">
                         <h2>Contactez-moi</h2>
                         <form>
                             <label> Nom</label>
                             <input type="text" 
                             placeholder="Votre nom" >
-                            <br><br>
                             <label> Email </label>
                             <input type="email" 
                             placeholder="Votre email" >
-                            <br><br>
                             <label> Message </label>
                             <textarea></textarea>
-                            <br><br>
                             <button type="submit">Envoyer</button>
                         </form>
                     </section>
@@ -95,7 +97,7 @@
 
 
      <!---footer--->
-     <footer>
+     <footer class="footer">
         <p>
             @ 2026 Hamdos. Tous droits réservés.
             </p>
